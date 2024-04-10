@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ngx-charts-web
+ */
+export * from './lib/ngx-charts-web.module';
+export * from './lib/components/donut-gauge/index';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1jaGFydHMtd2ViL3NyYy9wdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLG9DQUFvQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtY2hhcnRzLXdlYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1jaGFydHMtd2ViLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzL2RvbnV0LWdhdWdlL2luZGV4JztcbiJdfQ==

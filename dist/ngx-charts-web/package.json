@@ -1,0 +1,47 @@
+{
+  "name": "@atom-platform/ngx-charts-web",
+  "version": "2.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "description": "Component library by Atom Platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-platform/ngx-charts-web.git"
+  },
+  "keywords": [
+    "widgets",
+    "reporting",
+    "ui"
+  ],
+  "author": "atom-platform",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atom-platform/ngx-charts-web/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "homepage": "https://github.com/atom-platform/ngx-charts-web#readme",
+  "module": "fesm2015/atom-platform-ngx-charts-web.mjs",
+  "es2020": "fesm2020/atom-platform-ngx-charts-web.mjs",
+  "esm2020": "esm2020/atom-platform-ngx-charts-web.mjs",
+  "fesm2020": "fesm2020/atom-platform-ngx-charts-web.mjs",
+  "fesm2015": "fesm2015/atom-platform-ngx-charts-web.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/atom-platform-ngx-charts-web.mjs",
+      "es2020": "./fesm2020/atom-platform-ngx-charts-web.mjs",
+      "es2015": "./fesm2015/atom-platform-ngx-charts-web.mjs",
+      "node": "./fesm2015/atom-platform-ngx-charts-web.mjs",
+      "default": "./fesm2020/atom-platform-ngx-charts-web.mjs"
+    }
+  },
+  "sideEffects": false
+}
